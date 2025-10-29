@@ -1,0 +1,75 @@
+*{
+    margin: 0; // remove o espaço externo padrão
+    padding: 0; // remove o preenchimento padrão
+    box-sizing: border-box; // respeitar as medidas que eu especificar
+
+}
+
+header{
+    background-color: #66BB6A;
+    width: 100%; // largura w
+    height: 20vh; // altura h
+     h2{color: white;
+    //display: block;// ocupa toda a linha (horizontal/largura) independente do tamanho do elemento
+    //display: inline; //ocupa somente o espaço do elemento
+    display: inline-block; // deixa na mesma linha e permite o controle de largura e alturas
+    width: 50%;
+    }
+
+    //padding-left: 50px; // move internamente da esquerda para direita
+    //padding-top: 50px // move internamente de cima para baixo
+    //padding-right: 50px; //mover internamente da direita para esquerda
+    //padding-bottom: 50px; // move internamente de baixo para cima
+
+    //margin-top: 50px; // move todo o elemento de cima para baixo
+    // margin-left: 40px; // move todo o elemento da esquerda para a direita
+    //margin-right: 40px; // move todo o elemento da direita para esquerda
+    //margin-bottom: 40px; // move todo o elemento de baixo para cima
+    
+    nav{
+      background-color: #66BB6A ;
+        display: inline-block;
+        width: 40%;
+        text-align: center;
+
+        a{
+            color: #ffffff;
+            margin-right: 20px;
+            text-decoration: none; // tira a estilização padrão da tag <a>
+        }
+
+    }
+   
+}
+
+.backgroud{
+    background-image: url("/assets/background.png") ;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 180px;
+
+    h1{
+        font-size: 5rem;
+        margin-bottom: 20px;
+        font-family: "Sansita Swashed", system-ui;
+    }
+
+    p{
+        font-size: 2rem;
+        width: 50%;
+        margin-bottom: 20px;
+        margin-left: 450px;
+    }
+
+    button{
+        background-color: #66bb6A;
+        color: #ffffff;
+        border: none;
+        padding: 15px  30px;
+        border-radius: 30px;
+    }
+
+}

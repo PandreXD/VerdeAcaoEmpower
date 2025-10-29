@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #66BB6A;
+  width: 100%;
+  height: 20vh;
+}
+header h2 {
+  color: white;
+  display: inline-block;
+  width: 50%;
+}
+header nav {
+  background-color: #66BB6A;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+header nav a {
+  color: #ffffff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.backgroud {
+  background-image: url("/assets/background.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 180px;
+}
+.backgroud h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  font-family: "Sansita Swashed", system-ui;
+}
+.backgroud p {
+  font-size: 2rem;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 450px;
+}
+.backgroud button {
+  background-color: #66bb6A;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */
